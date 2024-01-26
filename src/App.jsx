@@ -20,6 +20,29 @@ function App() {
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
+        <section className='content'>
+
+        </section>
+        <aside className='lateral'>
+          <div className='search'>
+            <h3 className='title'></h3>
+            <form action="">
+              <input type="text" />
+              <button>Submit</button>
+            </form>
+          </div>
+          <div className='add'>
+            <h3>Add Movie</h3>
+            <form action="">
+              <input type="text" placeholder='Title'/>
+              <textarea name="" id="" cols="30" rows="10" placeholder='description'></textarea>
+              <input type="submit" value="save"/>
+            </form>
+          </div>
+        </aside>
+        <footer>
+          &copy; Master en JavaScript ES12 y TypeScript - <a href="http://laylarodasweb.es">laylarodasweb.es</a>
+        </footer>
       </div>
       
     </>
