@@ -10,6 +10,9 @@ function App() {
     <>
       <div className='layout'>
         <header className='header'>
+          <div className='logo'>
+            <div className='play'></div>
+          </div>
           <h1>Movies</h1>
         </header>
         <nav className='nav'>
