@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +21,12 @@ function App() {
           </ul>
         </nav>
         <section className='content'>
-
+          <article className='movieItem'>
+            <h3 className='title'></h3>
+            <p className='description'></p>
+            <button className='edit'>Edit</button>
+            <button className='delete'>Delete</button>
+          </article>
         </section>
         <aside className='lateral'>
           <div className='search'>
@@ -40,7 +45,7 @@ function App() {
             </form>
           </div>
         </aside>
-        <footer>
+        <footer className='footer'>
           &copy; Master en JavaScript ES12 y TypeScript - <a href="http://laylarodasweb.es">laylarodasweb.es</a>
         </footer>
       </div>
