@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import { ListMovies } from './Components/ListMovies'
+import { Search } from './Components/Search'
+import { Add } from './Components/Add'
 
 
 function App() {
@@ -24,47 +27,11 @@ function App() {
           </ul>
         </nav>
         <section className='content'>
-          <article className='movieItem'>
-            <h3 className='title'>Lorem ipsum</h3>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae,</p>
-            <button className='edit'>Edit</button>
-            <button className='delete'>Delete</button>
-          </article>
-          <article className='movieItem'>
-            <h3 className='title'>Lorem ipsum</h3>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae,</p>
-            <button className='edit'>Edit</button>
-            <button className='delete'>Delete</button>
-          </article>
-          <article className='movieItem'>
-            <h3 className='title'>Lorem ipsum</h3>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae,</p>
-            <button className='edit'>Edit</button>
-            <button className='delete'>Delete</button>
-          </article>
-          <article className='movieItem'>
-            <h3 className='title'>Lorem ipsum</h3>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae,</p>
-            <button className='edit'>Edit</button>
-            <button className='delete'>Delete</button>
-          </article>
+          <ListMovies />
         </section>
         <aside className='lateral'>
-          <div className='search'>
-            <h3 className='title'>Search</h3>
-            <form action="">
-              <input type="text" />
-              <button>Submit</button>
-            </form>
-          </div>
-          <div className='add'>
-            <h3>Add Movie</h3>
-            <form action="">
-              <input type="text" placeholder='Title'/>
-              <textarea name="" id="" cols="30" rows="10" placeholder='description'></textarea>
-              <input type="submit" value="save"/>
-            </form>
-          </div>
+          <Search />
+          <Add />
         </aside>
         <footer className='footer'>
           &copy; Master en JavaScript ES12 y TypeScript - <a href="http://laylarodasweb.es">laylarodasweb.es</a>
