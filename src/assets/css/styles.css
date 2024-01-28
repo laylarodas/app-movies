@@ -92,11 +92,28 @@ body{
 }
 
 
-
+/* Styles - CONTENT*/
 .content{
     grid-area: content;
-    border: 5px solid green;
-    background-color: lightgreen;
+    background: #F6F7F9;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.movieItem{
+    width: 40%;
+    background: #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #ddd;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 60px 25px 60px 25px;
+
 }
 
 .lateral{

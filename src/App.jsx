@@ -25,8 +25,26 @@ function App() {
         </nav>
         <section className='content'>
           <article className='movieItem'>
-            <h3 className='title'></h3>
-            <p className='description'></p>
+            <h3 className='title'>Lorem ipsum</h3>
+            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae, ipsam ea ut illum qui explicabo, numquam itaque repellat aliquid.</p>
+            <button className='edit'>Edit</button>
+            <button className='delete'>Delete</button>
+          </article>
+          <article className='movieItem'>
+            <h3 className='title'>Lorem ipsum</h3>
+            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae, ipsam ea ut illum qui explicabo, numquam itaque repellat aliquid.</p>
+            <button className='edit'>Edit</button>
+            <button className='delete'>Delete</button>
+          </article>
+          <article className='movieItem'>
+            <h3 className='title'>Lorem ipsum</h3>
+            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae, ipsam ea ut illum qui explicabo, numquam itaque repellat aliquid.</p>
+            <button className='edit'>Edit</button>
+            <button className='delete'>Delete</button>
+          </article>
+          <article className='movieItem'>
+            <h3 className='title'>Lorem ipsum</h3>
+            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae, ipsam ea ut illum qui explicabo, numquam itaque repellat aliquid.</p>
             <button className='edit'>Edit</button>
             <button className='delete'>Delete</button>
           </article>
