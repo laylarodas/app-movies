@@ -26,32 +26,32 @@ function App() {
         <section className='content'>
           <article className='movieItem'>
             <h3 className='title'>Lorem ipsum</h3>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae, ipsam ea ut illum qui explicabo, numquam itaque repellat aliquid.</p>
+            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae,</p>
             <button className='edit'>Edit</button>
             <button className='delete'>Delete</button>
           </article>
           <article className='movieItem'>
             <h3 className='title'>Lorem ipsum</h3>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae, ipsam ea ut illum qui explicabo, numquam itaque repellat aliquid.</p>
+            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae,</p>
             <button className='edit'>Edit</button>
             <button className='delete'>Delete</button>
           </article>
           <article className='movieItem'>
             <h3 className='title'>Lorem ipsum</h3>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae, ipsam ea ut illum qui explicabo, numquam itaque repellat aliquid.</p>
+            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae,</p>
             <button className='edit'>Edit</button>
             <button className='delete'>Delete</button>
           </article>
           <article className='movieItem'>
             <h3 className='title'>Lorem ipsum</h3>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae, ipsam ea ut illum qui explicabo, numquam itaque repellat aliquid.</p>
+            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A iure molestiae,</p>
             <button className='edit'>Edit</button>
             <button className='delete'>Delete</button>
           </article>
         </section>
         <aside className='lateral'>
           <div className='search'>
-            <h3 className='title'></h3>
+            <h3 className='title'>Search</h3>
             <form action="">
               <input type="text" />
               <button>Submit</button>
