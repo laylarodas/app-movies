@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { SaveInStorage } from '../helpers/SaveInStorage';
 
 export const Add = () => {
 
@@ -32,30 +33,8 @@ export const Add = () => {
 
     //guardar en el localstorage
     //localStorage.setItem('movies', JSON.stringify([movie]));
-    saveInStorage(movie);
+    SaveInStorage("movies", movie);
     
-  }
-
-  const saveInStorage = (movie) => {
-
-    //Obtener elementos en localstorage
-    let items = JSON.parse(localStorage.getItem("movies"));
-    console.log(items);
-    //comprobar si es una array
-    if (Array.isArray(items)) {
-      //Añadir elemento nuevo
-      items.push(movie);
-    }else{
-      items = [movie];
-    }
-
-    //console.log(items)
-    //guardar en el local storage
-
-    localStorage.setItem("movies", JSON.stringify(items));
-    //devolver objeto
-
-    return movie;
   }
 
   return (
