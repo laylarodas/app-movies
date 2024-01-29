@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 
-export const ListMovies = () => {
+export const ListMovies = ({listState, setListState}) => {
 
-  const [listState, setListState] = useState([]);
+  //const [listState, setListState] = useState([]);
 
   useEffect(() => {
     console.log("Cargando componente listado de peliculas")

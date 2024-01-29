@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { ListMovies } from './Components/ListMovies'
 import { Search } from './Components/Search'
 import { Add } from './Components/Add'
@@ -9,6 +7,8 @@ import { Add } from './Components/Add'
 function App() {
   const [count, setCount] = useState(0)
 
+  const [listState, setListState] = useState([]);
+  
   return (
     <>
       <div className='layout'>
@@ -27,11 +27,11 @@ function App() {
           </ul>
         </nav>
         <section className='content'>
-          <ListMovies />
+          <ListMovies listState ={listState} setListState={setListState} />
         </section>
         <aside className='lateral'>
           <Search />
-          <Add />
+          <Add setListState={setListState}/>
         </aside>
         <footer className='footer'>
           &copy; Master en JavaScript ES12 y TypeScript - <a href="http://laylarodasweb.es">laylarodasweb.es</a>
