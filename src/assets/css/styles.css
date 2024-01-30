@@ -201,6 +201,11 @@ input[type="text"],
 }
 
 
+.notFound{
+    color: #9b0202;;
+}
+
+
 
 @media (max-width: 1190px){
     .content{
@@ -227,3 +232,5 @@ input[type="text"],
         margin: 20px 10px;
     }
 }
+
+
