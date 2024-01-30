@@ -17,7 +17,6 @@ export const ListMovies = ({listState, setListState}) => {
     let movies = JSON.parse(localStorage.getItem("movies"));
 
     setListState(movies);
-
     return movies;
   }
 
@@ -55,7 +54,7 @@ export const ListMovies = ({listState, setListState}) => {
                 {
                   edit === movie.id && (
                     
-                    <Edit movie={movie}/>
+                    <Edit movie={movie} getMovies={getMovies} setEdit={setEdit} setListState={setListState}/>
                   )
                 }
 
