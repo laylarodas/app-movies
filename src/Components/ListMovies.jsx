@@ -54,6 +54,7 @@ export const ListMovies = ({listState, setListState}) => {
                 {/* Edit Form*/}
                 {
                   edit === movie.id && (
+                    
                     <Edit />
                   )
                 }
