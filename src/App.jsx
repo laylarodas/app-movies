@@ -30,7 +30,7 @@ function App() {
           <ListMovies listState ={listState} setListState={setListState} />
         </section>
         <aside className='lateral'>
-          <Search />
+          <Search listState={listState} setListState={setListState}/>
           <Add setListState={setListState}/>
         </aside>
         <footer className='footer'>
